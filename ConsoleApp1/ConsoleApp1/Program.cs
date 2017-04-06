@@ -10,6 +10,10 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+            Calculate calculate = new Calculate();
+            
+            Console.WriteLine(calculate.add(1, 2));
+            Console.WriteLine(calculate.minus(2, 1));
         }
     }
 }
